@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  overflow: hidden;
+  position: relative;
+}
+
+header {
+  margin-bottom: 80px;
+}
+
+header .header {
+  position: relative;
+  background: url(../img/header/header1.jpg) top center/cover no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+header .header .header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25px;
+}
+
+header .header .header__top-icon {
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+header .header .header__text {
+  position: absolute;
+  right: 0;
+  top: 36%;
+  right: 5%;
+  color: #fff;
+  text-align: right;
+}
+
+header .header .header__text p {
+  font-size: 20px;
+  color: #918e8a;
+  line-height: 40px;
+}
+
+header .header .header__text h5 {
+  font-size: 46px;
+  color: #e2e1de;
+  letter-spacing: 1px;
+  font-weight: 400;
+  line-height: 56px;
+}
+
+header .header .header__text .header__btn button {
+  padding: 12px 18px 12px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+header .header .header__text .header__btn button:first-child {
+  position: relative;
+  margin-right: 6px;
+  background-color: #82b440;
+}
+
+header .header .header__text .header__btn button:first-child:hover {
+  background-color: #e2e1de;
+  color: #000;
+  cursor: pointer;
+  z-index: 10;
+}
+
+header .header .header__text .header__btn button:last-child {
+  background-color: #07aaa5;
+}
+
+header .header .header__text .header__btn button:last-child:hover {
+  background-color: #e2e1de;
+  color: #000;
+  cursor: pointer;
+}
+
+.sideBar__container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  -webkit-box-shadow: -13px 26px 36px rgba(0, 0, 0, 0.8);
+          box-shadow: -13px 26px 36px rgba(0, 0, 0, 0.8);
+  -webkit-transform: translateX(120%);
+          transform: translateX(120%);
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
+}
+
+.sideBar__container .sideBar__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 28px 6px 24px 6px;
+}
+
+.sideBar__container .sideBar__wrapper .sidebar__img img {
+  width: 60%;
+}
+
+.sideBar__container .sideBar__wrapper .sidebar__icon i {
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 0 1px 2px #000;
+  cursor: pointer;
+}
+
+.sideBar__container .sidebar__list ul li {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  list-style: none;
+  font-size: 15px;
+}
+
+.sideBar__container .sidebar__list ul li a {
+  text-decoration: none;
+  color: #000;
+  width: 100%;
+  display: block;
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+}
+
+.sideBar__container .sidebar__list ul li a:hover {
+  color: #2fb7b3;
+  cursor: pointer;
+}
+
+.content {
+  text-align: center;
+}
+
+.content .title {
+  text-align: center;
+}
+
+.content .title p {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #626262;
+}
+
+.content .title h2 {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #2fb7b3;
+}
+
+.content .content__img {
+  margin-top: 40px;
+}
+
+.content .content__img:hover {
+  cursor: pointer;
+}
+
+.content .content__img:hover h4 {
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+  color: #2fb7b3;
+}
+
+.content .content__img:hover img {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+.content .content__img h4 {
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 16px;
+  margin-top: 20px;
+}
+
+.content .content__text {
+  margin-bottom: 50px;
+}
+
+.content .content__text p {
+  text-align: center;
+  font-size: 15px;
+  line-height: 22px;
+}
+/*# sourceMappingURL=style.css.map */
